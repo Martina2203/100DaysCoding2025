@@ -10,9 +10,9 @@ public class Dav37 {
         System.out.print("Masukkan angka: ");
         long b = p.nextLong();
         
-            if(b %2 == 1 && b < 100){
+            if(b %2 == 1 && b >= 10 && b < 100){
                 System.out.printf( "%d adalah bilangan ganjil dan termasuk puluhan \n" , b);
-            } else if (b % 2 == 0 && b < 1000){
+            } else if (b % 2 == 0 && b >= 10 && b < 100){
                 System.out.println(b + " adalah bilangan genap dan termasuk puluhan ");
             } else {
                 System.out.println(b + " input tidak valid ");
