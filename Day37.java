@@ -10,13 +10,14 @@ public class Dav37 {
         System.out.print("Masukkan angka: ");
         long b = p.nextLong();
         
-            if(b %2 == 1 && b < 1000){
-                System.out.printf( "%d adalah bilangan ganjil dan termasuk ratusan \n" , b);
+            if(b %2 == 1 && b < 100){
+                System.out.printf( "%d adalah bilangan ganjil dan termasuk puluhan \n" , b);
             } else if (b % 2 == 0 && b < 1000){
-                System.out.println(b + " adalah bilangan genap dan termasuk ratusan ");
+                System.out.println(b + " adalah bilangan genap dan termasuk puluhan ");
             } else {
                 System.out.println(b + " input tidak valid ");
             }
                 
         } 
     }
+    
