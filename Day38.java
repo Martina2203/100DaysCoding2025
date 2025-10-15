@@ -15,7 +15,7 @@ public class Day38 {
         }else if (a < 0){
         System.out.printf("%d adalah bilangan negatif%n", a);
         }else {
-         System.out.printf("%d adalah bilangan nol");   
+         System.out.printf("%d adalah bilangan nol%n");   
        }
   
     }
