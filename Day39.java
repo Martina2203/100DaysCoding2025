@@ -46,6 +46,7 @@ public class Day39 {
             System.out.print("Masukkan jumlah yang mau dibeli:");
         int j = a.nextInt();
         int t = h * j;
+            System.out.println("Total harga: Rp" + t);  
       } else if (p == 0){
             System.out.println("Terima kasih karena telah berkunjung");
       } else {
