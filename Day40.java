@@ -12,7 +12,7 @@ public class Day40 {
         long s = q.nextLong();
         System.out.print("Masukkan (+ - * / %) = ");
         char o = q.next().charAt(0);
-        System.out.print("Masukkan angka 1 = ");
+        System.out.print("Masukkan angka 2 = ");
         long k = q.nextLong();
         
         long h = 0 ;
