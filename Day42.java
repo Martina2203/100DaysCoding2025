@@ -27,7 +27,7 @@ public class Day42 {
             pa = 15;
          }else if (pe >=3000000 && pe <5000000){
             pa = 10;
-        } else {
+        } else if (pe <3000000){
             pa = 0;
         }
       } else if(p == 2) {
@@ -36,7 +36,7 @@ public class Day42 {
             pa = 8;
       } else if (pe >=3000000 && pe <5000000){
             pa = 3;
-      } else {
+      } else if (pe <3000000) {
             pa = 0;
       }
       }       
