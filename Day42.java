@@ -16,7 +16,7 @@ public class Day42 {
         System.out.print("Pilih Pekerjaan: ");
         int p = q.nextInt();
         System.out.print("Penghasilan: ");
-        double pe = q.nextInt();
+        double pe = q.nextDouble();
         
         int pa = 0;
         String jp = "";
