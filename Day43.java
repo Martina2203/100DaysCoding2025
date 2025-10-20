@@ -12,7 +12,7 @@ public class Day43 {
         
         String jenis = "";
         if (a < 1){
-        jenis = " tidak valid";
+        jenis = " tidak boleh memasukkan angka negatif";
         }else if (a < 10) {
         jenis = " satuan";
         }else if (a < 100){
