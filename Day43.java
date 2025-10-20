@@ -11,12 +11,16 @@ public class Day43 {
         int a = q.nextInt();
         
         String jenis = "";
-        if (a < 10) {
+        if (a < 1){
+        jenis = " tidak valid";
+        }else if (a < 10) {
         jenis = " satuan";
         }else if (a < 100){
         jenis = " puluhan";
-        } else{
+        } else if (a >= 100 && a < 1000){
         jenis = " ratusan";
+        } else{
+        jenis = " tidak valid";
         }
         
         String bilangan = "";
