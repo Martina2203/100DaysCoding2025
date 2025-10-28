@@ -10,7 +10,7 @@ public class Day20 {
         double b = 142.0;
         String bstr = String.valueOf(b);
         
-        // Menampilkan hasil output
+        // Menampilkan hasil output atau ke layar
         System.out.println("Nilai: " + astr);
         System.out.println("Tinggi: " + bstr + " cm");
         
