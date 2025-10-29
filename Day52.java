@@ -10,7 +10,7 @@ public class Day52 {
         char u = 'y';
         
         while (u == 'y'){
-            System.out.print("Maukkan angka: ");
+            System.out.print("Masukkan angka: ");
             int a = q.nextInt();
             
             String h = (a % 2 != 0) ? "Ganjil" : "Genap";
