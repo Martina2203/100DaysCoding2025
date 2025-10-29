@@ -7,14 +7,18 @@ public class Day52 {
     public static void main(String[] args) {
         // Perulangan while
         Scanner q = new Scanner(System.in);
-        System.out.print("Jumlah kucing: ");
-        int j = q.nextInt();
+        char u = 'y';
         
-        int k = 1;
-        while (k <= j){
-            System.out.println("Kucing ke-" + k);
-            k++;
+        while (u == 'y'){
+            System.out.print("Maukkan angka: ");
+            int a = q.nextInt();
+            
+            String h = (a % 2 == 0) ? "Genap" : "Ganjil";
+            System.out.println("Angka " + a + " adalah " + h);
+            System.out.print("Cek(y): ");
+            u = q.next().charAt(0);
         }
+            System.out.println("Selesai");
     }
     
 }
