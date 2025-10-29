@@ -13,7 +13,7 @@ public class Day52 {
             System.out.print("Maukkan angka: ");
             int a = q.nextInt();
             
-            String h = (a % 2 == 0) ? "Genap" : "Ganjil";
+            String h = (a % 2 != 0) ? "Ganjil" : "Genap";
             System.out.println("Angka " + a + " adalah " + h);
             System.out.print("Cek(y): ");
             u = q.next().charAt(0);
