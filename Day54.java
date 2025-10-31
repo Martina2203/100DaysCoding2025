@@ -1,4 +1,4 @@
-package day54;
+ package day54;
 
 import java.util.Scanner;
 
@@ -7,31 +7,25 @@ public class Day54 {
     public static void main(String[] args) {
         // Keyword continue
         Scanner q = new Scanner(System.in);
-        int jm = 10;
+        System.out.print("Jumlah Mahasiswa: ");
+        int jm = q.nextInt();
         int tv = 0;
         int jv = 0;
         int jtv = 0;
-        int nk = 100;
-        int nb = 0;
+        int nk = 0;
+        int nb = 100;
         
         for (int a = 1; a <= jm; a++){
-            System.out.print("Masukkan nilai ke" + a + ": ");
+            System.out.print("Nilai ke" + a + ": ");
             int n = q.nextInt();
             
             if (n < 0 || n > 100){
-                System.out.println("Nilai tidak valid");
+                System.out.println("Nilai tidak valid dan tidak di proses");
                 jtv++;
                 continue;
             }
                 tv += n;
-                jv++;
-                
-                if (n < nk){
-                    nk = n;
-                }
-                if (n > nb){
-                    nb = n;
-                }
+                jv++;               
         }
          
         System.out.println("Total nilai valid\t: " + tv);
