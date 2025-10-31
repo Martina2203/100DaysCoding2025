@@ -1,4 +1,4 @@
- package day54;
+package day54;
 
 import java.util.Scanner;
 
@@ -9,11 +9,12 @@ public class Day54 {
         Scanner q = new Scanner(System.in);
         System.out.print("Jumlah Mahasiswa: ");
         int jm = q.nextInt();
-        int tv = 0;
-        int jv = 0;
-        int jtv = 0;
-        int nk = 0;
-        int nb = 100;
+        int tv, jv, jtv, nk, nb;
+        tv = 0;
+        jv = 0;
+        jtv = 0;
+        nk = 0;
+        nb = 100;
         
         for (int a = 1; a <= jm; a++){
             System.out.print("Nilai ke" + a + ": ");
