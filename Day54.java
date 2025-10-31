@@ -40,13 +40,10 @@ public class Day54 {
         System.out.println("Total nilai valid\t: " + tv);
         System.out.println("Jumlah nilai valid\t: " + jv);
         System.out.println("Jumlah nilai tidak valid: " + jtv);
-        
-        if (jv > 0){
-        double rata = (double) tv/ jv;
+
+        double rata = tv/ jv;
         System.out.println("Nilai valid terkecil\t: " + nk);
         System.out.println("Nilai valid terbesar\t: " + nb);
         System.out.println("Rata-rata nilai valid\t: " + rata);         
         } 
     }
-    
-}
