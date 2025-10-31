@@ -14,7 +14,7 @@ public class Day54 {
         jv = 0;
         jtv = 0;
         nk = 0;
-        nb = 100;
+        nb = 0;
         
         for (int a = 1; a <= jm; a++){
             System.out.print("Nilai ke" + a + ": ");
@@ -26,7 +26,15 @@ public class Day54 {
                 continue;
             }
                 tv += n;
-                jv++;               
+                jv++;       
+                
+                if (n < nk){
+                nk = n;
+                }
+                
+                if (n > nb){
+                nb = n;
+                }
         }
          
         System.out.println("Total nilai valid\t: " + tv);
