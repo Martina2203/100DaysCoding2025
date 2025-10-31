@@ -13,7 +13,7 @@ public class Day54 {
         tv = 0;
         jv = 0;
         jtv = 0;
-        nk = 0;
+        nk = 100;
         nb = 0;
         
         for (int a = 1; a <= jm; a++){
