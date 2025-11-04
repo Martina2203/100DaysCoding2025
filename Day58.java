@@ -5,12 +5,12 @@ public class Day58 {
         Scanner q = new Scanner(System.in);
         System.out.print("Masukkan angka N: ");
         int n = q.nextInt();
-        System.out.println("Angka 1 - N:");
+        System.out.println("Angka 1 - N");
         for (int a = 1; a <= n; a++) {
             System.out.print(a + " ");
         }
         System.out.println();
-        System.out.println("Angka N - 1:");
+        System.out.println("Angka N - 1");
         for (int a = n; a >= 1; a--) {
             System.out.print(a + " ");
         }
