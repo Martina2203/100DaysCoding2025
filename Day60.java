@@ -9,13 +9,17 @@ public class Day60 {
         int n = q.nextInt();
 
         System.out.println("Angka ganjil dari N-1:");
-        for (int a = n; a >= 1; a -= 2) {
-            System.out.print(a + " ");
+        for (int i = n - 1; i >= 1; i--) {
+            if (i % 2 != 0) {
+                System.out.print(i + " ");
+            }
         }
 
         System.out.println("\nAngka genap dari N-1:");
-        for (int a = n - 1; a >= 1; a -= 2) {
-            System.out.print(a + " ");
+        for (int i = n - 1; i >= 1; i--) {
+            if (i % 2 == 0) {
+                System.out.print(i + " ");
+            }
         }
     }
 }
