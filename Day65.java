@@ -9,10 +9,15 @@ public class Day65 {
         int n = q.nextInt();
 
         long f = 1;
+        System.out.print(n + "! = ");
         for (int i = 1; i <= n; i++) {
             f *= i;
+            System.out.print(i);
+            if (i < n) {
+                System.out.print(" x ");
+            }
         }
 
-        System.out.println("Faktorial dari " + n + " adalah " + f);
+        System.out.println(" = " + f);
     }
 }
