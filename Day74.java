@@ -1,7 +1,7 @@
 package Day74;
 import java.util.Scanner;
 
-public class class74 {
+public class Day74 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
