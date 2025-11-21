@@ -9,13 +9,13 @@ public class day75 {
         System.out.print("Masukkan sebuah kalimat: ");
         String kalimat = q.nextLine();
 
-        int panjang = kalimat.length();          
-        String besar = kalimat.toUpperCase();    
-        String kecil = kalimat.toLowerCase();    
+        int p = kalimat.length();          
+        String b = kalimat.toUpperCase();    
+        String k = kalimat.toLowerCase();    
 
         System.out.println("\n=== HASIL ===");
-        System.out.println("Panjang kalimat: " + panjang);
-        System.out.println("Huruf besar   : " + besar);
-        System.out.println("Huruf kecil   : " + kecil);
+        System.out.println("Panjang kalimat: " + p);
+        System.out.println("Huruf besar   : " + b);
+        System.out.println("Huruf kecil   : " + k);
     }
 }
