@@ -4,10 +4,10 @@ import java.util.Scanner;
 
 public class day75 {
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
+        Scanner q = new Scanner(System.in);
 
         System.out.print("Masukkan sebuah kalimat: ");
-        String kalimat = input.nextLine();
+        String kalimat = q.nextLine();
 
         int panjang = kalimat.length();          
         String besar = kalimat.toUpperCase();    
