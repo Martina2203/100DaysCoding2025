@@ -8,25 +8,23 @@ public class Day78 {
 
         System.out.print("Masukkan sebuah kalimat: ");
         String kalimat = q.nextLine();
-      
+
         System.out.println("Panjang kalimat: " + kalimat.length());
-      
-        System.out.println("Karakter pertama: " + kalimat.charAt(0));
+
+        if (kalimat.length() > 0) {
+            System.out.println("Karakter pertama: " + kalimat.charAt(0));
+        } else {
+            System.out.println("Kalimat kosong, tidak ada karakter pertama.");
+        }
 
         System.out.println("Huruf besar semua: " + kalimat.toUpperCase());
-
         System.out.println("Huruf kecil semua: " + kalimat.toLowerCase());
-
         System.out.println("Mengandung kata 'java'? " + kalimat.contains("java"));
-
         System.out.println("Sama persis dengan 'Hello'? " + kalimat.equals("Hello"));
-       
         System.out.println("Sama (abaikan besar/kecil) dengan 'hello'? " + kalimat.equalsIgnoreCase("hello"));
-
         System.out.println("Mulai dengan huruf 'A'? " + kalimat.startsWith("A"));
-        
         System.out.println("Berakhir dengan titik? " + kalimat.endsWith("."));
-    
+
         if (kalimat.length() >= 5) {
             System.out.println("5 huruf pertama: " + kalimat.substring(0, 5));
         }
