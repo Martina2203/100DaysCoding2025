@@ -8,8 +8,9 @@ public class Day93 {
         Scanner q = new Scanner(System.in);
         double x = q.nextDouble();
 
-        System.out.println(Math.ceil(x));
-        System.out.println(Math.floor(x));
-        System.out.println(Math.round(x));
+        System.out.println("Angka asli : " + x);
+        System.out.println("Ceil       : " + Math.ceil(x));
+        System.out.println("Floor      : " + Math.floor(x));
+        System.out.println("Round      : " + Math.round(x));
     }
 }
