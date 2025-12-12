@@ -26,4 +26,9 @@ public class Day96 {
         int x = q.nextInt();
         int y = q.nextInt();
 
-        System.out.printl
+        System.out.println("Tambah : " + tambah(x, y));
+        System.out.println("Kurang : " + kurang(x, y));
+        System.out.println("Kali   : " + kali(x, y));
+        System.out.println("Bagi   : " + bagi(x, y));
+    }
+}
